@@ -25,6 +25,7 @@ class AK(models.Model):
     name = models.CharField(max_length=200)
     responsible = models.CharField(max_length=200)
     room = models.ForeignKey(Room, on_delete=models.CASCADE)
+    url = models.CharField(max_length=1000, blank=True)
 
 class RoomAssignment(models.Model):
     room = models.ForeignKey(Room, related_name='zuordnung', on_delete=models.CASCADE)
