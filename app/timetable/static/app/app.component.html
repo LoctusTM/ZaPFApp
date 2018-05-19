@@ -1,0 +1,183 @@
+<!--
+<div class="ui menu">
+  <div class="header item">Brand</div>
+  <a class="active item">Link</a>
+  <a class="item">Link</a>
+  <div class="ui dropdown item">
+    Dropdown
+    <i class="dropdown icon"></i>
+    <div class="menu">
+      <div class="item">Action</div>
+      <div class="item">Another Action</div>
+      <div class="item">Something else here</div>
+      <div class="divider"></div>
+      <div class="item">Separated Link</div>
+      <div class="divider"></div>
+      <div class="item">One more separated link</div>
+    </div>
+  </div>
+  <div class="right menu">
+    <div class="item">
+      <div class="ui action left icon input">
+        <i class="search icon"></i>
+        <input type="text" placeholder="Search">
+        <button class="ui button">Submit</button>
+      </div>
+    </div>
+    <a class="item">Link</a>
+  </div>
+</div>
+-->
+<header *ngIf="view != 'beamer'">
+    <div id="header-inner">
+        <h1 (click)="menu = !menu">ZaPF App</h1>
+        <button *ngIf="state=='loading'" type="button" id="status" class="loading" disabled="disabled">lade</button>
+        <button *ngIf="state=='offline'" type="button" id="status" class="offline" disabled="disabled">offline</button>
+        <button *ngIf="state=='error'" type="button" id="status" class="error" (click)="refreshData()">Verbindungsfehler!</button>
+        <button *ngIf="state=='online'" type="button" id="status" class="online" (click)="refreshData()">
+            <img alt="aktualisieren" src="static/style/reload.svg">
+        </button>
+    </div>
+</header>
+<nav [class.active]="menu" (click)="menu = false">
+    <ul>
+        <li><a (click)="chView('slots');">Zeitplan</a></li>
+        <li><a (click)="chView('news');">Newsticker</a></li>
+        <li><a (click)="chView('contacts');">Infos & Kontakte</a></li>
+        <!--<li><a (click)="chView('maps');">Karten</a></li>-->
+        <li><a (click)="chView('prefs');">Einstellungen</a></li>
+    </ul>
+</nav>
+
+<div class="content" *ngIf="!data">
+    <section>
+        <h3>wird geladen ...</h3>
+    </section>
+</div>
+
+
+
+<div id="beamerleft"
+     class="slotscomponent"
+     style="margin-top: 50px; margin: 50px 0px 0px 20px" 
+     *ngIf="data && view == 'beamer'"
+     [class.highlight]="prefs.slots.highlight" 
+     [slots]="data.slots" 
+     [prefs]="prefs.slots">
+</div>
+
+<div *ngIf="data && view == 'beamer'" style="color: #fff; padding: 10px 20px; font-size: 30px;" id="beamerleft">
+    <h1>Zeitplan</h1>
+</div>
+
+<div id="beamerright"
+     class="newscomponent"
+     style="margin-top: 50px; margin: 50px 20px 0px 0px" 
+     *ngIf="data && view == 'beamer'"
+     [news]="data.news">
+</div>
+
+<div *ngIf="data && view == 'beamer'" style="color: #fff; padding: 10px 22px; font-size: 30px;" id="beamerright">
+    <h1>News</h1>
+</div>
+
+<div id="content" 
+     class="slotscomponent" 
+     *ngIf="data && view == 'slots'" 
+     [class.highlight]="prefs.slots.highlight" 
+     [slots]="data.slots" 
+     [prefs]="prefs.slots">
+</div>
+
+<div id="content" 
+     class="newscomponent" 
+     *ngIf="data && view == 'news'" 
+     [news]="data.news">
+</div>
+
+<div id="content" class="contacts" *ngIf="data && view == 'contacts'">
+<!--
+    <section class="alarm">
+        <h3>Uni-Notruf:</h3>
+        <p>(+49 7531 88) <strong>2222</strong></p>
+    </section>-->
+    <section style="padding-top: 5px;">
+        <h3 style="margin: 0 5px;">Tagungsbüro</h3>
+        <p style="margin: 0 10px 10px 10px;">
+            (+49 1577) 10 71 821 <br>
+            Öffnungszeiten: 06:00-02:00 Uhr <br>
+            Ort: INF 227 (Kirchhoff-Institut für Physik), Raum 1.403
+        </p>
+        <h3 style="margin: 0 5px;">Orga-Büro</h3>
+        <p style="margin: 0 10px 10px 10px;">
+            (+49 6221) 54 19555 <br>
+            Öffnungszeiten: 00:00-24:00 Uhr <br>
+            Ort: INF 226 (Physikalisches Institut), Raum 00.210
+        </p>
+        <h3 style="margin: 0 5px;">Kontakt</h3>
+        <p style="margin: 0 10px 10px 10px;">
+            <a href="mailto:zapfinhd@mathphys.stura.uni-heidelberg.de">
+                zapfinhd@mathphys.stura.uni-heidelberg.de
+            </a> <br>
+        </p>
+    </section>
+    <!--
+    <section>
+        <h3>Vertrauenspersonen</h3>
+        <ul>
+            <li *ngFor="#p of data.trustpersons">{{p}}</li>
+        </ul>
+        <p>
+            <a href="mailto:vertrauensperson@zapf.uni-konstanz.de">
+                vertrauensperson@zapf.uni-konstanz.de
+            </a>
+        </p>
+    </section>
+    -->
+</div>
+<!--
+<div id="content" class="maps" *ngIf="view == 'maps'">
+    <section>
+        <h3>Uni - gesamt</h3>
+        <a href="maps/uni.png">
+            <img alt="Uniplan" src="maps/uni.png" />
+        </a>
+    </section>
+    <section>
+        <h3>Sportgelände</h3>
+        <a href="maps/sport.png">
+            <img alt="Sportgelände" src="maps/sport.png" />
+        </a>
+    </section>
+    <section>
+        <h3>P6 - Napf,Aufenthalt</h3>
+        <a href="maps/p6.png">
+            <img alt="P6" src="maps/p6.png" />
+        </a>
+    </section>
+    <section>
+        <h3>R5 - Tagungsbüro, Höhrsäle</h3>
+        <a href="maps/r5.png">
+            <img alt="R5" src="maps/r5.png" />
+        </a>
+    </section>
+</div>
+-->
+<div id="content" class="preferences" *ngIf="view == 'prefs'">
+    <form>
+        <table>
+            <tr>
+                <td><input id="slotsShowFinished" type="checkbox" [(ngModel)]="prefs.slots.showFinished" /></td>
+                <td><label for="slotsShowFinished">Beendete Slots anzeigen</label></td>
+            </tr>
+            <tr>
+                <td><input id="slotsShowNotAk" type="checkbox" [(ngModel)]="prefs.slots.showNotAk" /></td>
+                <td><label for="slotsShowNotAk">Nicht-AK Slots anzeigen</label></td>
+            </tr>
+            <tr>
+                <td><input id="slotsHighlight" type="checkbox" [(ngModel)]="prefs.slots.highlight" /></td>
+                <td><label for="slotsHighlight">Aktuellen Slot hervorheben</label></td>
+            </tr>
+        </table>
+    </form>
+</div>

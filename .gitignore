@@ -108,3 +108,7 @@ migrations/
 
 # Test Database
 database.json
+
+# Mac specific files
+
+.DS_Store

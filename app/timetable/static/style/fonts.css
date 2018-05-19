@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Cantarell';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Cantarell'),
+         local('Cantarell Regular'),
+         url('fonts/Cantarell-Regular.otf') format('opentype'),
+         url('fonts/Cantarell-Regular.ttf') format('truetype');
+}
+
+/* Fettgerechneter Regular-Font sieht auf den meißten Systemen
+   besser aus als der extra vorhandene Bold Schriftsatz
+   (Probleme mit Letter-margin) */
+/*@font-face {
+    font-family: 'Cantarell';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Cantarell Bold'),
+         url('fonts/Cantarell-Bold.otf') format('opentype'),
+         url('fonts/Cantarell-Bold.ttf') format('truetype');
+}*/
+
+html {
+    font-family: 'Cantarell', Verdana, sans-serif;
+}
+

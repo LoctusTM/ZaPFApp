@@ -1,0 +1,881 @@
+{
+	"name": "ZaPF App Database",
+	"version": "2.0",
+	"news": [
+    
+        {
+            "date": "14:14",
+            "msg": "Liebe ZaPFika, die im Plenum sind. Die Küche hat Gemüse zubereitet (ich glaube in der Pfanne, aber seht selbst) und vor A6 gestellt, das heißt hungrige Münder können dort gestellt werden. Falls ihr es noch nicht wisst, euer Gepäck steht auf Ebende A7 (vom Essen aus: umdrehen, Treppen hoch und dort oben ist es). Auf A7 findet ihr auch die Bierkästen vom gestrigen Bier-AK."
+        },
+        {
+            "date": "21:00",
+            "msg": "GEPÄCKTRANSPORT: Wenn ihr wollt, könnt ihr morgen euer beschriftetes Gepäck in das Zelt, in dem keine Philos schlafen, legen. Wir bringen es dann ab neun ans Audimax. Bändel und Eddings findet ihr bei der Zeltwache."
+        },
+        {
+            "date": "20:47",
+            "msg": "Nur zur Sicherheit: Auf der Slackline lauft ihr natürlich auf eigene Gefahr"
+        },
+        {
+            "date": "19:52",
+            "msg": "Liebe Teilnehmika, nach dem StAPF AK haben einige Leute Interesse an der Arbeit des StAPF's bekundet. Wir würden uns freuen, wenn diejenigen, die Lust auf StAPF und/oder TOPF Arbeit, ZaPF e.V. sowie das KommGrem haben, egal ob als gewähltes Mitglied oder als Helfer, sich im Laufe des Abends mit den Mitgliedern der oben genannten Organe der ZaPF  nocheinmal zusammen setzten würden. So können wir in einem kleinen Rahmen eure Vorstellungen, Pläne oder Interessen bereden. Wir werden, wie alle anderen Teilnehmika auch, während des Grilles am Zelt zu finden sein, bzw. im AK Fachschaftsfreundschaften. Wir freuen uns auf euch! Kathii (Frankfurt) und Karola (Potsdam)"
+        },
+        {
+            "date": "18:22",
+            "msg": "Bitte beachtet die gerade versendete E-Mail für die AK Anmeldung ! Dies ist sehr wichtig für unsere Plenums -  Vorbereitung,  Danke :-)"
+        },
+        {
+            "date": "18:02",
+            "msg": "Korrektur: Grillen findet am Veranstaltungszelt statt (siehe Lageplan auf P6). Bis bald !"
+        },
+        {
+            "date": "17:09",
+            "msg": "Hauptorga: Wissen die Teilnehmern eigentlich, dass das Grillen heute am Wassersportgelände ist? Tagungsbüro: Äh keine Ahnung. Hauptorga: Schickst du ne News raus? Tagungsbüro: Aber klar doch, für dich mach ich alles ❤"
+        },
+         {
+            "date": "17:05",
+            "msg": "fyi: Die FaTaMa hat eine Resolution zum Thema VG Wort (§52a UrhG) beschlossen. Diese könnt ihr  in P603 (Infopoint) einsehen."
+         },
+        {
+            "date": "16:24",
+            "msg": "Der FachschaftsfreundschaftsAK findet heute direkt im Anschluss an den AK Slot 7 im Veranstaltungszelt statt. Das Veranstaltungszelt findet ihr am Wassersportgelände und ist in den Plänen im Tagungsheft und in der APP eingezeichnet (dunkelblaues Zelt)."
+        },
+        {
+            "date": "14:46",
+            "msg": "Der heutige Fachvortrag fängt um 16:00 Uhr an und findet im Raum R711 statt (bisher stand in der App: Audimax - das ist falsch!). Das Thema des Fachvortrags lautet: Physik in Hollywood."
+        },
+        {
+            "date": "13:59",
+            "msg": "Die Deadline für Satzungs- und GOänderungsantrage sind bis heute um 15:00 Uhr im Tagungsbüro abzugeben und auszuhängen."
+        },
+        {
+            "date": "10:42",
+            "msg": "Liebe ZaPFika, wir haben heute eine Beschwerde bekommen, dass heute Nacht gegen das Zelt gepinkelt wurde. Eigentlich dachten wir, dass es selbstverständlich ist, wenn ihr mal für große oder kleine ZaPFika müsst, die dafür vorgesehen Räumlichkeiten zu benutzen (oft als *WC* bezeichnet). Da das aber anscheinend nicht alle von euch beherzigen, würden wir diejenigen bitten, sich in Zukunft in ein kleines Zimmer einzuschließen, den Dingen freien Lauf zu lassen und laut zu stöhnen."
+        },
+        {
+            "date": "10:12",
+            "msg": "WICHTIG!!! In der Herrenumkleide in der Sporthalle wurde eine silberne Uhr liegen gelassen! Nachdem sie auch einem Nicht-ZaPFikon gehören kann, haben wir sie erstmal dagelassen."
+        },
+        {
+            "date": "8:50",
+            "msg": "Nochmal eine Bitte an euch: Wir haben Feedbackbögen ausgedruckt und in P603 (Infopoint) und im Tagungsbüro ausgelegt. Wir würden uns sehr freuen, wenn ihr diese ausgefüllt im Tagungsbüro abgebt <3 <3 <3"
+        },
+        {
+            "date": "8:25",
+            "msg": "Liebe Teilnehmika, es würde uns und unserer Planung sehr helfen, wenn ihr uns mitteilt, wann ihr plant abzureisen. Wir können euch dann auch gerne helfen, wenn ihr Fragen zu Bussen und ähnlichem habt. Bitte meldet euch doch im Tagungsbüro, wir freuen uns von euch zu hören ;-)"
+        },
+        {
+            "date": "03:50",
+            "msg": "Die Sachen, die sich in den um 3 Uhr öffnenden Schließfächern befanden, sind jetzt im Tagungsbüro, wo ihr sie jederzeit gerne abholen könnt."
+        },
+        {
+            "date": "21:25",
+            "msg": "Wir haben von der Orga noch eine Bitte an euch: Es würde uns sehr freuen und helfen, wenn ihr die Feedback-Zettel ausfüllen würdet und im Tagungsbüro abgeben könntet. Die Feedback-Zettel liegen (noch) im Audimax aus und können in P603 für den Rest der ZaPF gefunden werden."
+        },
+        {
+            "date": "21:24",
+            "msg": "Heute um 21:30 findet zudem der Bier-AK *Unterstützung Finanzschwacher Fachschaften* in P 712 statt. Ihr könnt euch deswegen an Zoe (Frankfurt) wenden ;)"
+        },
+        {
+            "date": "21:04",
+            "msg": "BUSSE ZU P-CLUB: Es fahren um 22:00, 22:30 und 23:00 Busse von der Uni an die Marktstätte. In den Bussen befindet sich jeweils ein HECHT, der euch dann zum Club führt. Für die, die noch kurz zum Zeltplatz gehen wollen, fahren Busse von der Haltestelle Egg um 22:13, 23:13 und 0:13, die jedoch nicht von HECHTEN begleitet werden."
+        },
+        {
+            "date": "19:23",
+            "msg": "Die Party steigt heute abend im P-Club in der Altstadt ab 22:00 Uhr. Busse fahren von der Universität ab 21:00 halbstündlich bis 0 Uhr um ganz und um halb. Ausstieg ist bei der Haltestelle Schnetztor. Zurück kommt ihr mit dem 4/13 um 0:55 ab Bahnhof, dem Nachtschwärmer (ACHTUNG! kostet 3€) um 1:40 ab Bahnhof oder dem Sonderbus (kostenlos) um 3:15 ab Schnetztor. Alle Busse halten bei der Haltestelle Egg/Universität."
+        },
+        {
+            "date": "17:30",
+            "msg": "Im Audimax ist leider eine Türe kaputt. Falls ihr nicht reinkommt, versucht einfach eine andere."
+        },
+        {
+            "date": "16:25",
+            "msg": "Liebe ZaPFika, das Zwischenplenum geht um 17:00 Uhr los. Wir wollen pünktlich starten, d.h. wir fangen um 17:00 Uhr an zu reden. Wir bitten deswegen alle, sich rechtzeitig einzufinden, also 5 bis 10 Minuten früher. Herzlichen Dank ;)"
+        },
+        {
+            "date": "15:36",
+            "msg": "Es gibt wieder warme Linsen im NaPF!"
+        },
+        {
+            "date": "15:15",
+            "msg": "Wer sich sportlich betätigen möchte, kann direkt an der Uni Slacklinen. Einfach zu den Hängematten kommen oder am Tagungsbüro melden."
+        },
+        {
+            "date": "13:40",
+            "msg": "Bisher im Tagungsbüro angemeldete BUAKs (2) sind in die APP eingepflegt und können auf den Leinwänden in den Räumen auf P6 betrachtet werden. Die Bier-AKs hängen in P603 (Infopoint) aus und können dort eingesehen werden. Schließt euch mit den Personen auf den Fotos zusammen."
+        },
+        {
+            "date": "10:01",
+            "msg": "Kleine Information: Es gibt im Tagungsbüro eine große Kiste von Ravensburger, in der es viele, viele Spiele gibt. Kommt vorbei und leiht euch eines aus, wenn ihr Lust auf Spielen habt! Einen Katalog, welche Spiele es gibt, findet ihr in P603 (Infopoint) oder im Tagungsbüro."
+        },
+        {
+            "date": "9:25",
+            "msg": "Die Exkursion Simulink trifft sich um 9:45 Uhr auf der Terrasse vor P."
+        },
+        {
+            "date": "8:30",
+            "msg": "Die Exkursion ISC/Stadtführung trifft sich um 9:00 Uhr auf der Terrasse vor P."
+        },
+        {
+            "date": "8:15",
+            "msg": "Die Exkursion zum Technorama trifft sich um 8:45 Uhr und trifft sich auf dem Behindertenparkplatz schräg gegenüber vom Tagungsbüro."
+        },
+        {
+            "date": "7:30",
+            "msg": "Die Exkursion Klärwerk trifft sich um 8:00 Uhr auf der Terrasse vor P."
+        },
+        {
+            "date": "07:15",
+            "msg": "Die Exkursionen PSI und KKW treffen sich um 7:45 auf dem Behindertenparkplatz schräg gegenüber vom Tagungsbüro."
+        },
+        {
+            "date": "06:45",
+            "msg": "Exkursion Airbus/Dornier trifft sich um 7:15 auf der Terrasse vor P"
+        },
+        {
+            "date": "06:45",
+            "msg": "Exkursion Zeppelin trifft sich um 7:00 Uhr, Treffpunkt ist auf der Terrasse vor P"
+        },
+        {
+            "date": "23:15",
+            "msg": "Könnten bitte die folgenden Teilnehmer noch ihre BMBF-Listen im Tagungsbüro unterschreiben? Alexander Bohn (ETH), Frederike Ahr, Benjamin Dummer, Alexander Kusch, Martin Scheuch (Alte Säcke), Michael Enders (Erlangen Nürnberg), Lukas Porstendorfer (Bremen)"
+        },
+        {
+            "date": "23:13",
+            "msg": "Für alle die in der Stadt sind: der letzte 4/13 Bus nach Egg fährt um 0:55, um 1:45 fährt nochmal ein Sonderbus an die Uni. Beide fahren jeweils vom Bahnhof los."
+        },
+        {
+            "date": "18:35",
+            "msg": "REMINDER: Bitte bewegt euch langsam Richtung Bus. Der Bus fährt um 18:43 9AB Haltestelle Universität. Bei Bahnhof aussteigen oder 19:05 13/4 Haltestelle Egg. Bei Marktstätte aussteigen. Treffpunkt ist um halb acht an der Marktstätte."
+        },
+        {
+            "date": "17:11",
+            "msg": "Die Balkone sind FLUCHTWEGE. Bitte Vermeidet es darauf spazieren zu gehen."
+        },
+        {
+            "date": "Do 17:10",
+            "msg": "Liebe AK-Leiter, falls ihr AKs im ersten Backupslot machen wollt, meldet euch bitte im Tagungsbüro, damit wir das publizieren und euch auch Räume zuordnen können."
+        },
+        {
+            "date": "Do 17:09",
+            "msg": "Könnten bitte Mark Phillip Rode (Oldenburg), Jonas Fortmann (Clausthal), Sonja Gehring (Bonn), Joshua Bohling (Würzburg), Alexander Bohn (ETH), Janis Casper, Rebecca von Kuk, Maximilian Stackelmaier (KIT), Arnt Roscher, Sarah Schubert (Chemnitz), Fabian Becherer (Freiburg), Michael Enders (Erlangen-Nürnberg), Phois-Jeremia Riedel, Emanuel Schwarzhaus, Melanie Strube (Wien), Valentin Wohlfarth (HUB), Finn Krein (FUB), Christian Lehmann (Bielefeld), Clémentine Lorato (Siegen), Angela Mantovanelli (Hamburg), Lukas Porstendorfer (Bremen), Julia Sammet (Frankfurt), und die alten Säcke Markus Gleich, Frederike Ahr, Wolfgang Bauer, Benjamin Dummer, Alexander Kusch, Martin Scheuch, die heutigen BMBF Listen im NaPF noch unterschreiben."
+        },    
+        {
+            "date": "Do 16:07",
+            "msg": "Liebe ZaPFika, die in den Großraumzelten schlafen: Einige von euch haben ihr Gepäck mittig auf den Platz gelegt, der für die Philosophen reserviert ist. Euer Gepäck ist ein wenig auf die Seite geräumt und wir bitten euch, euch andere Plätze zu suchen, denn die Philosophen kommen und würden gerne auch ein Platz zum schlafen haben."
+        },
+        {
+            "date": "Do 15:15",
+            "msg": "REMINDER: AK-Slot 4 ist auf 16 Uhr vorgezogen! Alle Teilnehmer müssen einen der folgenden Busse nehmen: 18:43 9AB Haltestelle Universität. Bei Bahnhof aussteigen. 19:05 13/4 Haltestelle Egg. Bei Marktstätte aussteigen. Im Anschluss ans Abendessen geht's weiter zur Kneipentour. Sachen können im bewachten Raum P603 gelagert werden."
+        },
+        {
+            "date": "Do 13:19",
+            "msg": "Die gestern angekündigten Bier-AK's befinden sich nun mit Profilbild der entsprechenden Leitika an der Pinnwand in P603. Wir bitten die Leitka dort Ort und  Zeit einzutragen, Danke !"
+        },
+        {
+            "date": "Do 12:28",
+            "msg": "Auch wenn es heute Abend Schwierigkeiten mit dem Essen gibt (siehe Meldung weiter unten), das Mittagessen ist pünktlich um 12:30 fertig und wartet darauf von euch gegessen zu werden."
+        },
+        {
+            "date": "Do 12:05",
+            "msg": "Kleine Zusatzinfo: Das glutenfreie Brot ist nur zu 90% glutenfrei."
+        },
+        {
+            "date": "Do 11:55",
+            "msg": "Es gibt eine Änderung in der Raumbelegung der AKs: in AK 3 Slot findet der AK *Abiturwissen & Lehrpläne* in Raum P 712 statt und in Slot 4 ist der AK *Kompetenzorientierter Physikstudiengang* in M 629. Beachtet zudem, dass der Slot 4 wie vorhin angekündigt eine halbe Stunde früher beginnt, also um 16:00 Uhr."
+        },
+        {
+            "date": "Do 11:50",
+            "msg": "Eine Bitte an alle Teilnehmer: Wir haben genug veganes und glutenfreies Brot für unsere Veganer und unsere Menschen mit Glutenunverträglichkeit. Alle anderen bedienen sich bitte *nicht* bei diesem Brot, sonst bleibt davon nichts übrig für die, die sich nicht bei dem anderen Brot bedienen können. Herzlichen Dank!"
+        },
+        {
+            "date": "Do 11:22",
+            "msg": "Treffpunkt ist an der Marktstätte, in beiden Bussen werden euch ORCAs begleiten. Damit das zeitlich nicht zu knapp ist, wird der AK-Slot 4 auf 16 Uhr vorgezogen! Nach dem Essen im Hotel geht es dann direkt weiter zur Kneipentour. Falls ihr Sachen an der Uni lassen wollt könnt ihr diese im bewachten Raum P603 lagern."
+        },    
+        {
+            "date": "Do 11:21",
+            "msg": "18:43 9AB Haltestelle Universität. Bei Bahnhof aussteigen. 19:05 13/4 Haltestelle Egg. Bei Marktstätte aussteigen."
+        },
+        {
+            "date": "Do 11:20",
+            "msg": "ACHTUNG! Leider gab es ein Missverständnis mit unserem Caterer für heute Abend. Das Abendessen wird es nicht an der Uni, sondern in den Räumlichkeiten von unserem Caterer in einem Hotel in der Stadt geben. Es ist daher eminent wichtig, dass ALLE Teilnehmer einen der folgenden Busse nehmen:"
+        },        
+        {
+            "date": "Do 09:59",
+            "msg": "Die AKe Akkreditierungsworkshop, Studieren mit Asyl, GO-Schlachten, Wiki Geheimnisse, Gremienworkshop, Kryptoworkshop, Wissenschaftsethik, Studienführer, Zukunft der ZaPF - Konkrete Problemlösungen, Git-Workshop und  Zukunft der ZaPF – AK-Gestaltung bekommen von uns *kein* Protokollantikon gestellt. Falls einer der AK-Leitika damit ein Problem hat, schreibt bitte eine Mail ans Tagungsbüro oder kommt vorbei."
+        },
+          {
+            "date": "Do 09:57",
+            "msg": "Die Tagungstickets für Hauke Schäfer aus Kaiserslautern und die Maskottchentickets für Rüdiger (Saarland) und Brutzel (Duisburg-Essen) können jetzt im Tagunsbüro abgeholt werden."
+        },
+        {
+            "date": "Do 09:05",
+            "msg": "... Aber keine Sorge, wir machen uns gerade mit einem Verpflegungswagen auf dem Weg zu euren AK's :-)"
+        },
+        {
+            "date": "Do 09:03",
+            "msg": "Es gibt wieder Kaffee!!!"
+        },
+	   {
+			"date": "Do 07:59",
+			"msg": "Unsere Protokollanten sind gleich auf dem Weg :-). Keine Sorge und guten Start in den ersten AK"
+		},
+		{
+			"date": "Do 07:48",
+			"msg": "Leider sind die Kaffeemaschinen ausgefallen, wir kümmern uns so schnell wie möglich um neuen Kaffee"
+		},
+
+		{
+			"date": "Do 06:26",
+			"msg": "Die neuen BMBF-Listen liegen beim NaPF aus, und freuen sich auf viele Unterschriften."
+		},
+		{
+			"date": "Do 04:40",
+			"msg": "Könnten bitte Leonard Leutz, Jonas Marschner, Philipp Portee (HU Berlin), Anika Stooß (Uni Bielefeld) und Justus (Uni Siegen) beim Tagungsbüro vorbeikommen um dort noch die BMBF-Listen zu unterschreiben."
+		},
+
+		{
+			"date": "Mi 22:30",
+			"msg": "Die Pause im Anfangsplenum ist zu Ende. Bitte findet euch dort ein, wir würden gerne weitermachen ;-)"
+		},
+		{
+			"date": "Mi 22:24",
+			"msg": "Das Auto mit dem Kennzeichen PS - GJ 101 soll bitte vom Zeltplatz entfernt werden."
+		},
+		{
+			"date": "Mi 19:55",
+			"msg": "Der Geldbeutel von Florian Tönnies von der Universität Freiburg wurde im Tagungsbüro abgegeben. Zusätzlich wurde eine schwarze Jacke der Marke killtec bei der Anmeldung vor dem Tagungsbüro liegen gelassen."
+		},
+		{
+			"date": "Mi 17:04",
+			"msg": "Unter diesem Link findet ihr das aktuelle Protokoll des Anfangsplenums: https://fsphysik.edupad.uni-konstanz.de/ep/pad/view/ro.BKoGjoM/latest?"
+		},
+		{
+			"date": "Mi 16:38",
+			"msg": "Jetzt ist auch veganes Brot da!"
+		},
+		{
+			"date": "Mi 16:30",
+			"msg": "Das Plenum beginnt in 30 min!  Wir möchten pünktlich anfangen :-)"
+		},
+		{
+			"date": "Mi 15:39",
+			"msg": "Leider haben wir erfahren, dass unser aktuelles Brot nicht vegan ist, wir sind jedoch schon dabei, veganes Brot zu besorgen."
+		},
+		{
+			"date": "Mi 15:27",
+			"msg": "Liebe Neuankömmlinge, Bitte verwendet wenn möglich eure eigenen Schüsseln für das leckere Chilli! Vielen Dank und guten Appetit :-)"
+		},
+		{
+			"date": "Mi 14:13",
+			"msg": "Das Essen ist fertig!"
+		},
+		{
+			"date": "Mi 10:50",
+			"msg": "Die Anmeldung ist eröffnet!!"
+		},
+		{
+			"date": "Mi 08:17",
+			"msg": "Wir freuen uns euch alle herzlich auf der ZaPF zu begrüßen. Denkt daran, dass heute das Anfangsplenum pünktlich um 17:00 Uhr beginnt."
+		}
+	],
+	"trustpersons": [
+		"Rebekka Garreis",
+		"Felix Schindler",
+        "Willi Exner (TU Braunschweig)",
+        "Karola Schulz (Uni Potsdam)",
+        "Michael Schulz (Uni Kassel)",
+        "Clara Pokorny (Uni Frankfurt)",
+        "Lina Vandré (Uni Siegen)",
+        "Mandy Hannemann (Uni Potsdam)"
+	],
+	"slots": [
+		{
+			"begin": "Mi 14:00",
+			"end": "17:00",
+			"name": "Chilli & Check-in",
+			"type": "food"
+		},
+		{
+			"begin": "Mi 17:00",
+			"end": "23:00",
+			"name": "Begrüßung & Anfangsplenum",
+			"type": "plenum"
+		},
+		{
+			"begin": "Do 1:00",
+			"end": "6:30",
+			"name": "Schlafenszeit",
+			"type": "sleep"
+		},
+		{
+			"begin": "Do 6:30",
+			"end": "8:00",
+			"name": "Wecken & Frühstück",
+			"type": "food"
+		},
+		{
+			"begin": "Do 8:00",
+			"end": "10:00",
+			"name": "Slot I",
+			"type": "ak",
+			"aks": [
+                            {
+                                "name": "Frauenquotenresolution",
+                                "room": "P 712",
+                                "responsible": "Adriana (HUB), Björn(RWTH), Jörg(FUB)",
+                                "url":"https://zapf.wiki/SoSe16_AK_Frauenquotenreso"
+                            },
+                            {
+                                "name": "Exzellenzinitiative",
+                                "room": "M 630",
+                                "responsible": "Victoria (KIT)",
+                                "url":"https://zapf.wiki/SoSe16_AK_ExIniIII"
+                            },
+                            {
+                                "name": "Ziel-Institution",
+                                "room": "P 912",
+                                "responsible": "Tobi (Düsseldorf)",
+                                "url":"https://zapf.wiki/SoSe16_AK_Ziel-Institutionen"
+                            },
+                            {
+                                "name": "Gute Lehre",
+                                "room": "M 629",
+                                "responsible": "Marget (FFM)",
+                                "url":"https://zapf.wiki/SoSe16_AK_Gute_Lehre"
+                            },
+                            {
+                                "name": "Diplom in Thühringen",
+                                "room": "M 631",
+                                "responsible": "Eric (jDPG)",
+                                "url":"https://zapf.wiki/SoSe16_AK_Diplom_Th%C3%BCringen"
+                            },
+                            {
+                                "name": "Stellungnahme gegen Rechtsradikalismus",
+                                "room": "P 812",
+                                "responsible": "Adrian (RWTH)",
+                                "url":"https://zapf.wiki/SoSe16_AK_Stellungnahme_gegen_Rechtsradikalisum"
+                            },
+                            {
+                                "name": "Ingress Field art",
+                                "room": "Terasse",
+                                "responsible": "Wolle (Alter Sack)",
+                                "url":"https://zapf.wiki/SoSe16_AK_Ingress_Field_art"
+                            },
+                            {
+                                "name": "Ethikmodul",
+                                "room": "P 1138",
+                                "responsible": "Jenny (FUB), Jan (FUB)",
+                                "url":"https://zapf.wiki/SoSe16_AK_Ethikmodul"
+                            }
+                            
+			]
+		},
+		{
+			"begin": "Do 10:30",
+			"end": "12:30",
+            "finish": "2016-05-05T12:30:00+02:00",
+			"name": "Slot II",
+			"type": "ak",
+			"aks": [
+                            {
+                                "name": "Selbstreflektion der ZaPF",
+                                "room": "P 712",
+                                "responsible": "Karola (Potsdam), Valentin (HUB)",
+                                "url":"https://zapf.wiki/SoSe16_AK_Selbstreflektion_der_ZaPF"
+                            },
+                            {
+                                "name": "Wissenschaftszeitvertragsgesetz",
+                                "room": "M 630",
+                                "responsible": "Jörg (FUB), Jan (FUB)",
+                                "url":"https://zapf.wiki/SoSe16_AK_Wissenschaftszeitvertragsgesetz"
+                            },
+                            {
+                                "name": "Akkreditierungsworkshop",
+                                "room": "M631",
+                                "responsible": "Björn (RWTH), Marget (FFM), Kathi (FFM)",
+                                "url":"https://zapf.wiki/SoSe16_WS_Akkreditierung"
+                            },
+                            {
+                                "name": "Studierende mit Asyl",
+                                "room": "P 1138",
+                                "responsible": "Paddy (Konstanz), Anna Blank (Referentin)",
+                                "url":"https://zapf.wiki/SoSe16_AK_Studierende_mit_Asyl"
+                            },
+                            {
+                                "name": "Physikalische Praktika",
+                                "room": "M 629",
+                                "responsible": "Zafer (Potsdam)",
+                                "url":"https://zapf.wiki/SoSe16_AK_Praktika"
+                            },
+                            {
+                                "name": "Abbrecherquoten",
+                                "room": "P 812",
+                                "responsible": "Elli (Berlin)",
+                                "url":"https://zapf.wiki/SoSe16_AK_Abbrecherquoten"
+                            }
+                            
+			]
+		},
+		{
+			"begin": "Do 12:30",
+			"end": "14:00",
+            "finish": "2016-05-05T14:00:00+02:00",
+			"name": "Mittagessen",
+			"type": "food"
+		},
+		{
+			"begin": "Do 14:00",
+			"end": "16:00",
+            "finish": "2016-05-05T16:00:00+02:00",
+			"name": "Slot III",
+			"type": "ak",
+			"aks": [
+                            {
+                                "name": "Austausch",
+                                "room": "M 629",
+                                "responsible": "Thomi (HD)",
+                                "url":"https://zapf.wiki/SoSe16_AK_Austausch"
+                            },
+                            {
+                                "name": "GO-Schlacht",
+                                "room": "R 711",
+                                "responsible": "Björn (RWTH), Jörg (FUB)",
+                                "url":"https://zapf.wiki/SoSe16_WS_GO-Schlacht"
+                            },
+                            {
+                                "name": "Dreckige Geheimnisse des Wikis",
+                                "room": "P 912",
+                                "responsible": "Karola (Potsdam), Lukian (Würzburg)",
+                                "url":"https://zapf.wiki/SoSe16_AK_ZaPF-Wiki"
+                            },
+                            {
+                                "name": "Veröffentlichung von Drittmittelergebnissen",
+                                "room": "P 812",
+                                "responsible": "Martin (FUB), Jan (FUB)",
+                                "url":"https://zapf.wiki/SoSe16_AK_Ver%C3%B6ffentlichung_von_Drittmittelergebnissen"
+                            },
+                            {
+                                "name": "Protokolle in Arbeitskreisen",
+                                "room": "P 1012",
+                                "responsible": "Adriana (HUB)",
+                                "url":"https://zapf.wiki/SoSe16_AK_Protokolle"
+                            },
+                            {
+                                "name": "Mentoring",
+                                "room": "P 1138",
+                                "responsible": "Mascha (TUB), Susanne (KN)",
+                                "url":"https://zapf.wiki/SoSe16_AK_Mentoring"
+                            },
+                            {
+                                "name": "Abiturwissen & Lehrpläne",
+                                "room": "P 712",
+                                "responsible": "Leon (FUB)",
+                                "url":""
+                            }
+                            ]
+		},
+		{
+			"begin": "Do 16:00",
+			"end": "18:00",
+            "finish": "2016-05-05T18:00:00+02:00",
+			"name": "Slot IV",
+			"type": "ak",
+			"aks": [
+                            {
+                                "name": "Vernetzung der ZaPF-Orgas",
+                                "room": "PZ 801",
+                                "responsible": "Kathi (FFM)",
+                                "url":"https://zapf.wiki/SoSe16_AK_Vernetzung_ZaPF-Orgas"
+                            },
+                            {
+                                "name": "GO- und Satzungsänderung",
+                                "room": "P 1012",
+                                "responsible": "Björn (RWTH), Jörg (FUB)",
+                                "url":"https://zapf.wiki/SoSe16_AK_GO_und_Satzungsaenderung"
+                            },
+                             {
+                                "name": "Dreckige Geheimnisse des Wikis Teil 2",
+                                "room": "P 912",
+                                "responsible": "Karola (Potsdam), Lukian (Würzburg)",
+                                "url":"https://zapf.wiki/SoSe16_AK_ZaPF-Wiki"
+                            },
+                             {
+                                "name": "Veröffentlichung von Nullergebnissen",
+                                "room": "P 812",
+                                "responsible": "Martin (FUB), Jan (FUB)",
+                                "url":"https://zapf.wiki/SoSe16_AK_Ver%C3%B6ffentlichung_von_Nullergebnissen"
+                            },
+                            {
+                                "name": "Kompetenzorientierter Physikstudiengang",
+                                "room": "M 629",
+                                "responsible": "Marget (FFM)",
+                                "url":"https://zapf.wiki/SoSe16_AK_Kompetenzorientierter_Physikstudiengang"
+                            },
+                            {
+                                "name": "Gremienworkshop",
+                                "room": "P 712",
+                                "responsible": "Tobi (Düsseldorf)",
+                                "url":"https://zapf.wiki/SoSe16_AK_Gremienworkshop"
+                            },
+                            {
+                                "name": "Anfänger Tanzkurs",
+                                "room": "P 1138",
+                                "responsible": "Phillip (KN)",
+                                "url":"https://zapf.wiki/SoSe16_Workshop_Tanzkurs"
+                            },
+                            {
+                                "name": "Internationale Semesterzeiten",
+                                "room": "M 631",
+                                "responsible": "Christian (Oldenburg)",
+                                "url":"https://zapf.wiki/SoSe16_AK_Internationale_Semesterzeiten"
+                            }
+                            
+			]
+		},
+		{
+			"begin": "Do 18:30",
+			"end": "20:00",
+            "finish": "2016-05-05T20:00:00+02:00",
+			"name": "Abendessen",
+			"type": "food"
+		},
+		{
+			"begin": "Fr 1:00",
+			"end": "6:00",
+            "finish": "2016-05-06T06:00:00+02:00",
+			"name": "Schlafenszeit",
+			"type": "sleep"
+		},
+		{
+			"begin": "Fr 6:00",
+			"end": "9:00",
+            "finish": "2016-05-06T09:00:00+02:00",
+			"name": "Wecken & Frühstück",
+			"type": "food"
+		},
+		{
+			"begin": "Fr 8:00",
+			"end": "17:00",
+            "finish": "2016-05-06T17:00:00+02:00",
+			"name": "Exkursionen",
+			"type": "social"
+		},
+		{
+			"begin": "Fr 15:00",
+			"end": "17:00",
+            "finish": "2016-05-06T17:00:00+02:00",
+			"name": "Backup-Slot I",
+			"type": "ak",
+			"aks": [
+                            {
+                                "name": "BUAK zu: Mentoring",
+                                "room": "P 1138",
+                                "responsible": "Mascha (TUB), Susanne (KN)",
+                                "url":"https://zapf.wiki/SoSe16_AK_Mentoring"
+                            }
+            ]
+		},
+		{
+			"begin": "Fr 17:00",
+			"end": "20:30",
+            "finish": "2016-05-06T20:30:00+02:00",
+			"name": "Zwischenplenum",
+			"type": "plenum"
+		},
+		{
+			"begin": "Fr 20:30",
+			"end": "22:00",
+            "finish": "2016-05-06T22:00:00+02:00",
+			"name": "Abendessen",
+			"type": "food"
+		},
+		{
+			"begin": "Sa 1:00",
+			"end": "7:30",
+            "finish": "2016-05-07T07:30:00+02:00",
+			"name": "Schlafenszeit",
+			"type": "sleep"
+		},
+		{
+			"begin": "Sa 7:30",
+			"end": "10:00",
+            "finish": "2016-05-07T10:00:00+02:00",
+			"name": "Wecken & Frühstück",
+			"type": "food"
+		},
+		{
+			"begin": "Sa 8:00",
+			"end": "10:00",
+            "finish": "2016-05-07T10:00:00+02:00",
+			"name": "Backup-Slot II",
+			"type": "ak",
+			"aks": [
+                            {
+                                "name": "Krypto Workshop",
+                                "room": "R 511",
+                                "responsible": "Björn (RWTH), Jörg (FUB)",
+                                "url":"https://zapf.wiki/SoSe16_WS_Krypto"
+                            },
+                            {
+                                "name": "Programmierkenntnisse im Physikstudium",
+                                "room": "M 630",
+                                "responsible": "Fabs (TUB)",
+                                "url":"https://zapf.wiki/SoSe16_AK_Programmierkenntnisse"
+                            },
+                            {
+                                "name": "GO Änderung bzgl. Resos, Anträge, ... im Zwischenplenum abstimmen",
+                                "room": "P 812",
+                                "responsible": "Jan Naumann",
+                                "url":"https://zapf.wiki/SoSe16_AK_GO-Aenderung_II"
+                            },                            
+                             {
+                                "name": "BUAK zu: Dreckige Geheimnisse des Wikis Teil 2",
+                                "room": "P 712",
+                                "responsible": "Karola (Potsdam), Lukian (Würzburg)",
+                                "url":"https://zapf.wiki/SoSe16_AK_ZaPF-Wiki"
+                            },
+                            {
+                                "name": "BUAK zu: Exzellenzinitiative (um 9 Uhr)",
+                                "room": "P 912",
+                                "responsible": "Victoria (KIT)",
+                                "url":"https://zapf.wiki/SoSe16_AK_ExIniIII"
+                            }
+                    ]
+		},
+		{
+			"begin": "Sa 10:00",
+			"end": "12:00",
+            "finish": "2016-05-07T12:00:00+02:00",
+			"name": "Slot V",
+			"type": "ak",
+			"aks": [
+                            {
+                                "name": "Wissenschaftsethik",
+                                "room": "P 1138",
+                                "responsible": "BuFaTa Phil",
+                                "url":"https://zapf.wiki/SoSe16_AK_Wissenschaftsethik"
+                            },
+                            {
+                                "name": "Der StAPF stellt sich vor",
+                                "room": "P 712",
+                                "responsible": "StAPF",
+                                "url":"https://zapf.wiki/SoSe16_AK_Der_StAPF_stellt_sich_vor"
+                            },
+                            {
+                                "name": "Fachschaftsneulinge",
+                                "room": "Philo/M630",
+                                "responsible": "BuFaTa Philo",
+                                "url":"https://zapf.wiki/SoSe16_AK_Fachschaftsneulinge"
+                            },
+                            {
+                                "name": "Alte Säcke Selbstverständnis",
+                                "room": "P 912",
+                                "responsible": "Tobi (Düsseldorf), Fredi (HH)",
+                                "url":"https://zapf.wiki/SoSe16_AK_Selbstverst%C3%A4ndnis_der_alten_S%C3%A4cke"
+                            },
+                            {
+                                "name": "Studienführer",
+                                "room": "M 629",
+                                "responsible": "Niklas (Konstanz)",
+                                "url":"https://zapf.wiki/SoSe16_AK_Studienf%C3%BChrer"
+                            },
+                            {
+                                "name": "Accounts und Anmeldesysteme",
+                                "room": "M631",
+                                "responsible": "Fabs (TUB)",
+                                "url":"https://zapf.wiki/SoSe16_AK_Accounts"
+                            },
+                            {
+                                "name": "CHE Zusammenarbeit",
+                                "room": "P 812",
+                                "responsible": "Thomi (HD)",
+                                "url":"https://zapf.wiki/SoSe16_AK_CHE_Zusammenarbeit"
+                            },
+                            {
+                                "name": "Drittmittel vs Zivilklausel",
+                                "room": "R 511",
+                                "responsible": "Philipp (HUB)",
+                                "url":"https://zapf.wiki/SoSe16_AK_DrittMittelVSZivilklausel"
+                            }
+			]
+		},
+		{
+			"begin": "Sa 12:00",
+			"end": "13:30",
+            "finish": "2016-05-07T13:30:00+02:00",
+			"name": "Mittagessen",
+			"type": "food"
+		},
+		{
+			"begin": "Sa 13:30",
+			"end": "15:30",
+            "finish": "2016-05-07T15:30:00+02:00",
+			"name": "Slot VI",
+			"type": "ak",
+			"aks": [
+                            {
+                                "name": "MeTaFa",
+                                "room": "P 812",
+                                "responsible": "Christian (Oldenburg)",
+                                "url":"https://zapf.wiki/SoSe16_AK_MeTaFa"
+                            },
+                            {
+                                "name": "Was findet ihr gut an Akkredierung?",
+                                "room": "M 630",
+                                "responsible": "Björn (RWTH), Marget (FFM)",
+                                "url":"https://zapf.wiki/SoSe16_AK_Was_findet_die_ZaPF_gut_an_Akkreditierung"
+                            },
+                            {
+                                "name": "ToPF/ ZaPF-IT",
+                                "room": "M 631",
+                                "responsible": "Jörg (FUB), Fabs (Tub), Jan (FUB)",
+                                "url":"https://zapf.wiki/SoSe16_AK_IT"
+                            },
+                            {
+                                "name": "Zukunft der ZaPF - Konkrete Problemlösung",
+                                "room": "P 712",
+                                "responsible": "Kathi (FFM), Tobi (Düsseldorf)",
+                                "url":"https://zapf.wiki/SoSe16_AK_Zukunft_der_ZaPFen"
+                            },
+                            {
+                                "name": "VEUK- How to Alumni",
+                                "room": "Philo/P 912",
+                                "responsible": "BuFaTa Philo",
+                                "url":"https://zapf.wiki/SoSe16_Workshop_VEUK_How_to_Alumni"
+                            },
+                            {
+                                "name": "Verschulung außerhalb des Bologna-Prozess",
+                                "room": "R 511",
+                                "responsible": "Mascha (TUB), Martin (FUB)",
+                                "url":"https://zapf.wiki/SoSe16_AK_Verschulung"
+                            },
+                            {
+                                "name": "Symptompflicht auf Attest",
+                                "room": "P 1138",
+                                "responsible": "Elli (Berlin)",
+                                "url":"https://zapf.wiki/SoSe16_AK_Symptompflicht"
+                            },
+                            {
+                                "name": "Klausurzulassung & Übungsbetrieb",
+                                "room": "M 629",
+                                "responsible": "Stefan (Köln)",
+                                "url":"https://zapf.wiki/SoSe16_AK_Klausurzulassungen_%26_%C3%9Cbungsbetrieb"
+                            }
+			]
+		},
+        {
+            "begin": "Sa 15:30",
+            "end": "16:00",
+            "finish": "2016-05-07T16:00:00+02:00",
+            "name": "Springer-Verlag",
+            "type": "food"
+        },
+		{
+			"begin": "Sa 16:00",
+			"end": "18:00",
+            "finish": "2016-05-07T18:00:00+02:00",
+			"name": "Fachvortrag (in R711)",
+			"type": "social"
+		},
+		{
+			"begin": "Sa 18:00",
+			"end": "20:00",
+            "finish": "2016-05-07T20:00:00+02:00",
+			"name": "Slot VII",
+			"type": "ak",
+			"aks": [
+                            {
+                                "name": "Mitgliederversammlung ZaPF e.V.",
+                                "room": "P 712",
+                                "responsible": "Zoe (FFm), Floh (FFM)",
+                                "url":"https://zapf.wiki/SoSe16_AK_Mitgliederversammlung_ZaPF_e.V."
+                            },
+                            {
+                                "name": "Vernetzung mit Doktorandenvertretung",
+                                "room": "M 631",
+                                "responsible": "Philipp (FFM), Fredi (HH)",
+                                "url":"https://zapf.wiki/SoSe16_AK_Doktorandenvernetzung"
+                            },
+                            {
+                                "name": "Git Workshop",
+                                "room": "M 629",
+                                "responsible": "Björn (RWTH), Jörg (FUB)",
+                                "url":"https://zapf.wiki/SoSe16_WS_Git"
+                            },
+                            {
+                                "name": "Zukunft der ZaPF Ak-Gestaltung",
+                                "room": "P 812",
+                                "responsible": "Marius (DD)",
+                                "url":"https://zapf.wiki/SoSe16_AK_AK_Gestaltung"
+                            },
+                            {
+                                "name": "Lehramt",
+                                "room": "M 630",
+                                "responsible": "Kai (Darmstadt), Kathi (FFM), Karola (Potsdam)",
+                                "url":"https://zapf.wiki/SoSe16_AK_Gremienworkshop"
+                            },
+                            {
+                                "name": "Student-Lifecycle-Managment",
+                                "room": "P 1138",
+                                "responsible": "Fabs (TUB)",
+                                "url":"https://zapf.wiki/SoSe16_AK_SLM"
+                            },
+                            {
+                                "name": "NC",
+                                "room": "R 511",
+                                "responsible": "Stefan (Köln)",
+                                "url":"https://zapf.wiki/SoSe16_AK_NC"
+                            }
+			]
+		},
+		{
+			"begin": "Sa 20:00",
+			"end": "21:30",
+            "finish": "2016-05-07T21:30:00+02:00",
+			"name": "Grillen",
+			"type": "food"
+		},
+		{
+			"begin": "So 1:00",
+			"end": "7:30",
+            "finish": "2016-05-08T07:30:00+02:00",
+			"name": "Schlafenszeit",
+			"type": "sleep"
+		},
+		{
+			"begin": "So 7:30",
+			"end": "8:30",
+            "finish": "2016-05-08T08:30:00+02:00",
+			"name": "Wecken & Frühstück",
+			"type": "food"
+		},
+		{
+			"begin": "So 8:30",
+			"end": "11:30",
+            "finish": "2016-05-08T11:30:00+02:00",
+			"name": "Abschlussplenum - Teil 1",
+			"type": "plenum"
+		},
+		{
+			"begin": "So 11:30",
+			"end": "12:00",
+            "finish": "2016-05-08T12:00:00+02:00",
+			"name": "Kaffe & Kuchen",
+			"type": "food"
+		},
+		{
+			"begin": "So 12:00",
+			"end": "16:00",
+            "finish": "2016-05-08T16:00:00+02:00",
+			"name": "Abschlussplenum - Teil 2",
+			"type": "plenum"
+		},
+		{
+			"begin": "So 16:00",
+			"end": "18:00",
+            "finish": "2016-05-08T18:00:00+02:00",
+			"name": "Checkout",
+			"type": "food"
+		}
+	]
+}

@@ -1,0 +1,27 @@
+<section
+    class="{{slot.type}}"
+    *ngFor="#slot of slots"
+    [class.hide]="!(slot.type == 'ak' || prefs.showNotAk) || !(unfinished(slot.finish) || prefs.showFinished)"
+    [class.unfinished]="unfinished(slot.finish)"
+    >
+    <h3>{{slot.name}}</h3>
+    <p class="time">{{ slot.begin }} - {{  slot.end }}</p>
+    <ul *ngIf="slot.type == 'ak'">
+        <li *ngFor="#ak of slot.aks">
+            {{ ak.name }}
+            <span class="info">
+              <!--
+                von
+                <span class="responsible">{{ ak.responsible }}</span>
+              -->
+                in
+                <span class="room">{{ ak.room }}</span>
+            </span>
+            <!--
+            <span class="overlay">
+                <a target="_blank" href="{{ ak.url }}">[Wiki]</a>
+            </span>
+          -->
+        </li>
+    </ul>
+</section>

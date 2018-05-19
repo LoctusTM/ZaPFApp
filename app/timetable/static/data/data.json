@@ -1,0 +1,476 @@
+{
+	"name": "ZaPF App Database",
+	"version": "2.0",
+	"news": [
+
+        {
+            "date": "21:00",
+            "msg": "Willkommen auf der KoMa78 in Heidelberg!"
+        }
+	],
+	"trustpersons": [
+		"",
+		""
+	],
+	"slots": [
+		{
+			"begin": "Mi 14:00",
+			"end": "17:00",
+			"finish": "2016-05-25T17:00:00+02:00",
+			"name": "Anreise",
+			"type": "food"
+		},
+		{
+			"begin": "Mi 18:00",
+			"end": "19:00",
+			"finish": "2016-05-25T19:00:00+02:00",
+			"name": "Ersti-Plenum",
+			"type": "plenum"
+		},
+		{
+			"begin": "Mi 19:00",
+			"end": "23:00",
+			"finish": "2016-05-25T23:00:00+02:00",
+			"name": "Anfangsplenum",
+			"type": "plenum"
+		},
+		{
+			"begin": "Mi 1:00",
+			"end": "6:30",
+			"finish": "2016-05-26T06:30:00+02:00",
+			"name": "Schlafenszeit",
+			"type": "sleep"
+		},
+		{
+			"begin": "Do 08:00",
+			"end": "09:00",
+            "finish": "2016-05-26T09:00:00+02:00",
+			"name": "Slot 1",
+			"type": "ak",
+			"aks": [
+                            {
+                                "name": "Mensaqualität",
+                                "room": "SR 05",
+                                "responsible": "",
+                                "url":""
+                            },
+														{
+																"name": "Homepage",
+																"room": "SR 07",
+																"responsible": "",
+																"url":""
+														},
+														{
+																"name": "Unisex-Toiletten",
+																"room": "SR 08",
+																"responsible": "",
+																"url":""
+														}
+            ]
+		},
+		{
+			"begin": "Do 09:00",
+			"end": "10:00",
+						"finish": "2016-05-26T10:00:00+02:00",
+			"name": "Slot 2",
+			"type": "ak",
+			"aks": [
+														{
+																"name": "Systemakkreditierung",
+																"room": "SR 05",
+																"responsible": "",
+																"url":""
+														},
+														{
+																"name": "Kurier",
+																"room": "SR 07",
+																"responsible": "",
+																"url":""
+														},
+														{
+																"name": "Teilzeit-Studium",
+																"room": "SR 08",
+																"responsible": "",
+																"url":""
+														}
+						]
+		},
+		{
+			"begin": "Do 10:00",
+			"end": "12:00",
+						"finish": "2016-05-26T12:00:00+02:00",
+			"name": "Slot 3",
+			"type": "ak",
+			"aks": [
+														{
+																"name": "Eingangsphase",
+																"room": "SR 05",
+																"responsible": "",
+																"url":""
+														},
+														{
+																"name": "Einsicht",
+																"room": "SR 07",
+																"responsible": "",
+																"url":""
+														},
+														{
+																"name": "Pool",
+																"room": "SR 08",
+																"responsible": "",
+																"url":""
+														}
+						]
+		},
+		{
+			"begin": "Do 13:30",
+			"end": "15:30",
+						"finish": "2016-05-26T15:30:00+02:00",
+			"name": "Slot 4",
+			"type": "ak",
+			"aks": [
+														{
+																"name": "Relative Noten",
+																"room": "SR 05",
+																"responsible": "",
+																"url":""
+														},
+														{
+																"name": "Vorlesungsplanung",
+																"room": "SR 07",
+																"responsible": "",
+																"url":""
+														},
+														{
+																"name": "Diplom",
+																"room": "SR 08",
+																"responsible": "",
+																"url":""
+														}
+						]
+		},
+		{
+			"begin": "Do 15:30",
+			"end": "17:30",
+						"finish": "2016-05-26T17:30:00+02:00",
+			"name": "Slot 5",
+			"type": "ak",
+			"aks": [
+														{
+																"name": "VG Wort",
+																"room": "SR 05",
+																"responsible": "",
+																"url":""
+														},
+														{
+																"name": "Lehrpreis",
+																"room": "SR 07",
+																"responsible": "",
+																"url":""
+														},
+														{
+																"name": "Vorkenntnisse",
+																"room": "SR 08",
+																"responsible": "",
+																"url":""
+														}
+						]
+		},
+		{
+			"begin": "Do 17:30",
+			"end": "18:30",
+			"finish": "2016-05-25T18:30:00+02:00",
+			"name": "Stadtführung",
+			"type": "social"
+		},
+		{
+			"begin": "Do 20:00",
+			"end": "02:00",
+			"finish": "2016-05-26T02:00:00+02:00",
+			"name": "Kneipentour",
+			"type": "social"
+		},
+		{
+			"begin": "Fr 02:00",
+			"end": "6:30",
+			"finish": "2016-05-26T06:30:00+02:00",
+			"name": "Schlafenszeit",
+			"type": "sleep"
+		},
+		{
+			"begin": "Fr 08:00",
+			"end": "12:00",
+			"finish": "2016-05-26T12:00:00+02:00",
+			"name": "Exkursionen",
+			"type": "social"
+		},
+		{
+			"begin": "Fr 12:00",
+			"end": "14:00",
+			"finish": "2016-05-26T14:00:00+02:00",
+			"name": "Mensa",
+			"type": "food"
+		},
+		{
+			"begin": "Fr 14:00",
+			"end": "15:00",
+			"finish": "2016-05-26T15:00:00+02:00",
+			"name": "Fachvortrag",
+			"type": "social"
+		},
+		{
+			"begin": "Fr 15:00",
+			"end": "17:00",
+						"finish": "2016-05-26T17:00:00+02:00",
+			"name": "Slot 6",
+			"type": "ak",
+			"aks": [
+														{
+																"name": "FS-PR",
+																"room": "INF 288, HS2",
+																"responsible": "",
+																"url":""
+														},
+														{
+																"name": "HS-Zugang Geflohene",
+																"room": "02/104",
+																"responsible": "",
+																"url":""
+														},
+														{
+																"name": "Uniübergreifende Zusammenarbeit",
+																"room": "INF 288, HS 2",
+																"responsible": "",
+																"url":""
+														},
+														{
+																"name": "Lehrinfrastruktur",
+																"room": "INF 288, HS 5",
+																"responsible": "",
+																"url":""
+														}
+						]
+		},
+		{
+			"begin": "Fr 17:00",
+			"end": "19:00",
+						"finish": "2016-05-26T19:00:00+02:00",
+			"name": "Slot 7",
+			"type": "ak",
+			"aks": [
+														{
+																"name": "O-Woche",
+																"room": "SR 09",
+																"responsible": "",
+																"url":""
+														},
+														{
+																"name": "Flüchtlinge",
+																"room": "02/104",
+																"responsible": "",
+																"url":""
+														},
+														{
+																"name": "Infobroschüren",
+																"room": "SR 5",
+																"responsible": "",
+																"url":""
+														},
+														{
+																"name": "Lehrveranstaltungen / Minimalstandards",
+																"room": "SR 8",
+																"responsible": "",
+																"url":""
+														}
+						]
+		},
+		{
+			"begin": "Fr 19:00",
+			"end": "20:00",
+			"finish": "2016-05-26T20:00:00+02:00",
+			"name": "Ewiges Frühstück++",
+			"type": "food"
+		},
+		{
+			"begin": "Fr 20:00",
+			"end": "23:00",
+			"finish": "2016-05-25T23:00:00+02:00",
+			"name": "Zwischenplenum",
+			"type": "plenum"
+		},
+		{
+			"begin": "Fr 23:30",
+			"end": "6:30",
+			"finish": "2016-05-27T06:30:00+02:00",
+			"name": "Schlafenszeit",
+			"type": "sleep"
+		},
+		{
+			"begin": "Sa 08:00",
+			"end": "10:00",
+						"finish": "2016-05-27T10:00:00+02:00",
+			"name": "Slot 8",
+			"type": "ak",
+			"aks": [
+														{
+																"name": "How to FSR",
+																"room": "SR 05",
+																"responsible": "",
+																"url":""
+														},
+														{
+																"name": "Service Minimalstandards",
+																"room": "SR 07",
+																"responsible": "",
+																"url":""
+														}
+						]
+		},
+		{
+			"begin": "Sa 08:00",
+			"end": "09:00",
+						"finish": "2016-05-27T09:00:00+02:00",
+			"name": "Slot 8",
+			"type": "ak",
+			"aks": [
+														{
+																"name": "FSR Gleichstellung",
+																"room": "SR 08",
+																"responsible": "",
+																"url":""
+														}
+						]
+		},
+		{
+			"begin": "Sa 09:00",
+			"end": "10:00",
+						"finish": "2016-05-27T10:00:00+02:00",
+			"name": "Slot 8",
+			"type": "ak",
+			"aks": [
+														{
+																"name": "Finanzen",
+																"room": "SR 08",
+																"responsible": "",
+																"url":""
+														}
+						]
+		},
+		{
+			"begin": "Sa 10:00",
+			"end": "12:00",
+						"finish": "2016-05-27T12:00:00+02:00",
+			"name": "Slot 9",
+			"type": "ak",
+			"aks": [
+														{
+																"name": "Orga/Meta",
+																"room": "SR 05",
+																"responsible": "",
+																"url":""
+														},
+														{
+																"name": "Tutoren",
+																"room": "SR 07",
+																"responsible": "",
+																"url":""
+														},
+														{
+																"name": "LGBTIQ",
+																"room": "SR 08",
+																"responsible": "",
+																"url":""
+														}
+						]
+		},
+		{
+			"begin": "Sa 12:00",
+			"end": "14:00",
+			"finish": "2016-05-27T14:00:00+02:00",
+			"name": "Ewiges Frühstück++",
+			"type": "food"
+		},
+		{
+			"begin": "Sa 14:00",
+			"end": "16:00",
+						"finish": "2016-05-27T16:00:00+02:00",
+			"name": "Slot 10",
+			"type": "ak",
+			"aks": [
+														{
+																"name": "Berufungskommision",
+																"room": "SR 05",
+																"responsible": "",
+																"url":""
+														},
+														{
+																"name": "Sorgenkind",
+																"room": "SR 07",
+																"responsible": "",
+																"url":""
+														},
+														{
+																"name": "Studizeitungen",
+																"room": "SR 08",
+																"responsible": "",
+																"url":""
+														}
+						]
+		},
+		{
+			"begin": "Sa 16:00",
+			"end": "18:00",
+						"finish": "2016-05-27T18:00:00+02:00",
+			"name": "Slot 11",
+			"type": "ak",
+			"aks": [
+														{
+																"name": "Hybride FSR",
+																"room": "SR 05",
+																"responsible": "",
+																"url":""
+														},
+														{
+																"name": "Studienpläne",
+																"room": "SR 07",
+																"responsible": "",
+																"url":""
+														},
+														{
+																"name": "Antidiskriminierung - Gremienarbeit",
+																"room": "SR 08",
+																"responsible": "",
+																"url":""
+														}
+						]
+		},
+		{
+			"begin": "Sa 18:00",
+			"end": "19:00",
+			"finish": "2016-05-27T19:00:00+02:00",
+			"name": "Grillen",
+			"type": "food"
+		},
+		{
+			"begin": "Sa 19:00",
+			"end": "23:00",
+			"finish": "2016-05-27T23:00:00+02:00",
+			"name": "Abschlussplenum",
+			"type": "plenum"
+		},
+		{
+			"begin": "Sa 23:00",
+			"end": "6:30",
+			"finish": "2016-05-28T06:30:00+02:00",
+			"name": "Schlafenszeit",
+			"type": "sleep"
+		},
+		{
+			"begin": "So 08:00",
+			"end": "14:00",
+			"finish": "2016-05-28T14:00:00+02:00",
+			"name": "Abreise",
+			"type": "social"
+		}
+	]
+}
