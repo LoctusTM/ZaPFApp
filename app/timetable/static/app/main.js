@@ -14,11 +14,7 @@ System.register(['angular2/platform/browser', './app.component.js', 'angular2/ht
                 http_1 = http_1_1;
             }],
         execute: function() {
-<<<<<<< HEAD
             app_component_1.AppComponent.dataUrl = "https://zapf.ethylomat.de/database.json";
-=======
-            app_component_1.AppComponent.dataUrl = "htts://zapf.ethylomat.de/database.json";
->>>>>>> a117d26eeb584598d8ff7a4cd6057943bbad56b4
             browser_1.bootstrap(app_component_1.AppComponent, [http_1.HTTP_PROVIDERS]);
         }
     }
