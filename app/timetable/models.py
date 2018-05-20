@@ -3,7 +3,6 @@ from django.db import models
 class Timeslot(models.Model):
     name = models.CharField(max_length=200)
     text = models.TextField(blank=True)
-    place = models.CharField(max_length=400, blank=True)
     start = models.DateTimeField('start')
     end = models.DateTimeField('end')
     event_type = (
@@ -64,7 +63,6 @@ class RoomAssignment(models.Model):
 
 
 class News(models.Model):
-    title = models.CharField(max_length=400, blank=True)
     message = models.TextField()
     time = models.DateTimeField()
 

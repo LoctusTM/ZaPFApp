@@ -5,12 +5,6 @@ import arrow
 from django.http import JsonResponse
 from .models import Timeslot, Room, AKSlot, AK, RoomAssignment, News
 
-def bic(s):
-    if s != None:
-        return s
-    else:
-        return ""
-
 def index(request):
     template = loader.get_template('index.html')
     return HttpResponse(template.render({}, request))
@@ -20,7 +14,7 @@ def timetable(request):
     data = {
         'name': 'ZaPF App Database',
         'version': '2.0',
-        'news': [{"date": arrow.get(n.time).humanize(locale='de_de'), "msg": n.message, "title": bic(n.title)} for n in News.objects.all()],
+        'news': [{"date": arrow.get(n.time).humanize(locale='de_de'), "msg": n.message} for n in News.objects.all()],
         'slots' : [],
     }
 
@@ -31,8 +25,6 @@ def timetable(request):
             "timestamp": int(arrow.get(t.start).timestamp),
             "finish": str(t.end)[0:10] + "T" + str(t.end)[11:19] + "+0200",  
             "name": t.name,
-            "place": bic(t.place),
-            "text": bic(t.text),
             "type": t.event_type
         }
         if hasattr(t, 'akslot'):
