@@ -3,6 +3,7 @@ from django.db import models
 class Timeslot(models.Model):
     name = models.CharField(max_length=200)
     text = models.TextField(blank=True)
+    name = models.CharField(max_length=200, blank=True)
     start = models.DateTimeField('start')
     end = models.DateTimeField('end')
     event_type = (

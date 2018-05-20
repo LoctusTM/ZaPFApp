@@ -27,6 +27,8 @@ def timetable(request):
             "name": t.name,
             "type": t.event_type
         }
+        if t.place:
+            slot["place"] = t.place
         if hasattr(t, 'akslot'):
             slot["aks"] = []
             for ak in t.akslot.ak_set.all():
