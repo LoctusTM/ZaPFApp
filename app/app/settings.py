@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'o^2+m6xwyho)946=$*4lx4-l4s)2gj!5&d19gy9(@on=aq7l(n'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False 
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["zapf.ethylomat.de", "app.zapfinhd.de"]
 
 
 # Application definition
