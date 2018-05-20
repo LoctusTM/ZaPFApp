@@ -14,14 +14,29 @@
                 von
                 <span class="responsible">{{ ak.responsible }}</span>
               -->
-                in
+                Ort: 
                 <span class="room">{{ ak.room }}</span>
             </span>
-            <!--
-            <span class="overlay">
+            
+            <span *ngIf="ak.url != ''" class="overlay">
                 <a target="_blank" href="{{ ak.url }}">[Wiki]</a>
             </span>
-          -->
+          
+        </li>
+    </ul>
+    <ul  *ngIf="slot.place != '' ">
+        <li style="background-color: rgba(255,255,255,0); color: #fff; padding: 2px 6px;">
+            <span style="color: #000;" class="info">
+                Ort: 
+                <span class="room">{{ slot.place }}</span>
+            </span>     
+        </li>
+    </ul>
+    <ul  *ngIf="slot.text != '' ">
+        <li style="background-color: rgba(255,255,255,0.3);">
+            <span style="color: #000;" class="">
+                <span class="room">{{ slot.text }}</span>
+            </span>     
         </li>
     </ul>
 </section>
