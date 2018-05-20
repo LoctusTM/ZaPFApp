@@ -14,7 +14,7 @@ def timetable(request):
     data = {
         'name': 'ZaPF App Database',
         'version': '2.0',
-        'news': [{"date": arrow.get(n.time).humanize(locale='de_de'), "msg": n.message, "title" : n.title} for n in News.objects.all()],
+        'news': [{"date": arrow.get(n.time).humanize(locale='de_de'), "msg": n.message} for n in News.objects.all()],
         'slots' : [],
     }
 
