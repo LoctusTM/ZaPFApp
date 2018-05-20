@@ -25,7 +25,11 @@ SECRET_KEY = 'o^2+m6xwyho)946=$*4lx4-l4s)2gj!5&d19gy9(@on=aq7l(n'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False 
 
+<<<<<<< HEAD
 ALLOWED_HOSTS = ["zapf.ethylomat.de", "app.zapfinhd.de"]
+=======
+ALLOWED_HOSTS = ["zapf.ethylomat.de", "app.zapfinhd.de", "0.0.0.0"]
+>>>>>>> a117d26eeb584598d8ff7a4cd6057943bbad56b4
 
 
 # Application definition
@@ -103,7 +107,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/2.0/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'de'
 
 TIME_ZONE = 'UTC'
 
