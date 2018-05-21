@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'o^2+m6xwyho)946=$*4lx4-l4s)2gj!5&d19gy9(@on=aq7l(n'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True 
+DEBUG = False 
 
 ALLOWED_HOSTS = ["zapf.ethylomat.de", "app.zapfinhd.de", "0.0.0.0"]
 
@@ -76,10 +76,21 @@ WSGI_APPLICATION = 'app.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': os.environ['PRODUCTION_DATABASE_DATABASE'],
+        'USER': os.environ['PRODUCTION_DATABASE_USERNAME'],
+        'PASSWORD': os.environ['PRODUCTION_DATABASE_PASSWORD'],
+        'HOST': os.environ['PRODUCTION_DATABASE_HOST'],
+        'PORT': os.environ['PRODUCTION_DATABASE_PORT'],
     }
+    #,
+    #'default': {
+    #    'ENGINE': 'django.db.backends.sqlite3',
+    #    'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    #}
 }
+
+
 
 
 # Password validation
