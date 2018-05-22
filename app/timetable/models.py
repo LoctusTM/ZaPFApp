@@ -23,7 +23,8 @@ class Timeslot(models.Model):
         verbose_name = "Zeitslot"
 
 class Room(models.Model):
-    name = models.CharField(max_length=200)
+    name = models.CharField(max_length=200, blank=True)
+    hörsaal = models.BooleanField(default=False)
 
     def __str__(self):
         return self.name
@@ -33,6 +34,8 @@ class Room(models.Model):
         verbose_name = "Raum"
 
 class AKSlot(Timeslot):
+    backup = models.BooleanField(default=False)
+
     def __str__(self):
         return self.name
 
@@ -41,11 +44,16 @@ class AKSlot(Timeslot):
         verbose_name = "AK-Slot"
 
 class AK(models.Model):
-    akslot = models.ForeignKey(AKSlot, on_delete=models.CASCADE)
-    name = models.CharField(max_length=200)
-    responsible = models.CharField(max_length=200)
-    room = models.ForeignKey(Room, on_delete=models.CASCADE)
+    akslot = models.ForeignKey(AKSlot, on_delete=models.CASCADE, blank=True, null=True )
+    name = models.CharField(max_length=200, blank=True)
+    short = models.CharField(max_length=200, default="")
+    responsible = models.CharField(max_length=200, blank=True)
+    room = models.ForeignKey(Room, on_delete=models.CASCADE, blank=True, null=True)
     url = models.CharField(max_length=1000, blank=True)
+    backup = models.BooleanField(default=False)
+
+    published = models.BooleanField(default=False)
+    kleine_fachschaften = models.IntegerField(default=0)
 
     def __str__(self):
         return self.name
