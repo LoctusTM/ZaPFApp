@@ -7,25 +7,41 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-<table style="font-size: 10px;" class="table table-sm" border="1px">
+<script src='https://cdnjs.cloudflare.com/ajax/libs/dragula/$VERSION/dragula.min.js'></script>
+
+<!--
+<label for="slot_1">Slot 1: </label>
+<input id="slot_1" type="number" name="slot_1" maxlength="100" required />
+<label for="room_1">Room 1: </label>
+<input id="room_1" type="number" name="room_1" maxlength="100" required />
+<br>
+<label for="slot_2">Slot 2: </label>
+<input id="slot_2" type="number" name="slot_2" maxlength="100" required />
+<label for="room_2">Room 2: </label>
+<input id="room_2" type="number" name="room_2" maxlength="100" required />
+-->
+
+<table style="font-size: 10px;" class="table table-sm table-condensed" border="1px">
 		<tr style="font-size: 130%; font-weight: bold;">
 			<td></td>
 			{% for akslot in akslots %}
-				<td>{{ akslot }}</td>
+				<td>{{ akslot }} ({{ forloop.counter0 }})</td>
 			{% endfor %}
 		</tr>
 
 {% for room in data %}
 	<tr>
 	<td style="font-size: 130%" class="col-md-1">
-		<b>{{room.0.room}}</b>
+		<b>{{room.0.room}} ({{ forloop.counter0 }})</b>
 	</td>
 	{% for akslot in room %}
 		<td style="{% if akslot.kleine_fachschaften < 10%} background-color: rgba(255,0,0,0.{{akslot.kleine_fachschaften}}); {% else %}rgba(255,0,0,1){% endif %}" class="col-md-1">
 				{% if akslot.ak == True %}
-				<b>{{ akslot.short }}</b><br>
+				<b>({{ akslot.public_id }}) {{ akslot.short }}</b><br>
 				{{ akslot.room }}<br>
 				{{ akslot.responsible }}<br>
+				{% else %}
+				<b>({{ akslot.public_id }})</b>
 				{% endif %}
 				<!--{{ akslot.akslot }}-->
 		</td>
@@ -33,3 +49,9 @@
 	</tr>
 {% endfor %}
 </table>
+
+<form action="/aktable/" method="post">
+    {% csrf_token %}
+    {{ form }}
+    <input type="submit" value="Submit" />
+</form>

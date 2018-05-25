@@ -51,6 +51,7 @@ class AK(models.Model):
     room = models.ForeignKey(Room, on_delete=models.CASCADE, blank=True, null=True)
     url = models.CharField(max_length=1000, blank=True)
     backup = models.BooleanField(default=False)
+    public_id = models.IntegerField(default=-1)
 
     published = models.BooleanField(default=False)
     kleine_fachschaften = models.IntegerField(default=0)

@@ -1,9 +1,19 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from django.http import HttpResponse, HttpResponseRedirect
 from django.template import loader
 import arrow
 from django.http import JsonResponse
 from .models import Timeslot, Room, AKSlot, AK, RoomAssignment, News
+from .forms import ChangeForm
+
+def n_t(n, k):
+    return (n%k, n//k)
+
+def t_n(x1, x2, k):
+    return x1 + x2* k
+
+def wh(array, val):
+    return np.argwhere(array==val)[0][0], np.argwhere(array==val)[0][1]
 
 def index(request):
     template = loader.get_template('index.html')
@@ -60,8 +70,43 @@ def ak_table(request):
     rooms = Room.objects.all()
     akslots = AKSlot.objects.all()
 
-    data = [[{"room": room.name, "akslot": "", "responsible": "", "name": ""} for akslot in akslots] for room in rooms]
-    print(data)
+    Räume = len(rooms)
+    Slots = len(akslots)
+
+    data = [[{"room": rooms[i].name, "akslot": "", "responsible": "", "name": "", "public_id": j*len(rooms)+i} for j in range(len(akslots))] for i in range(len(rooms))]
+
+    if request.method == 'POST':
+        form = ChangeForm(request.POST)
+        if form.is_valid():
+            slot_1 = int(form.cleaned_data['slot_1'])
+            slot_2 = int(form.cleaned_data['slot_2'])  
+
+            a = AK.objects.filter(public_id=slot_1)
+            b = AK.objects.filter(public_id=slot_2)
+
+            if len(a) == 1 and len(b) == 1:
+                a[0].public_id, b[0].public_id = b[0].public_id, a[0].public_id
+                a[0].akslot, b[0].akslot = b[0].akslot, a[0].akslot
+                a[0].room, b[0].room = b[0].room, a[0].room
+                a[0].save()
+                b[0].save()
+                print("a")
+
+            if len(a) == 1 and len(b) == 0:
+                a[0].public_id = slot_2
+                a[0].akslot = akslots[slot_2//Räume]
+                a[0].raum = rooms[slot_2%Slots]
+                a[0].save()
+                print("b", a[0].akslot)
+
+            if len(a) == 0 and len(b) == 1:
+                b[0].public_id = slot_1
+                b[0].akslot = akslots[slot_1//Räume]
+                b[0].raum = rooms[slot_1%Slots]
+                b[0].save()
+                print("c")
+
+            return HttpResponseRedirect('/aktable/')
 
     rooms_result = []
 
@@ -114,6 +159,16 @@ def ak_table(request):
         except:
             pass
 
+        try:
+            data[rooms_id_dict[ak.room.id]][akslots_id_dict[ak.akslot.id]]["id"] = ak.id
+        except:
+            pass
+
+        try:
+            data[rooms_id_dict[ak.room.id]][akslots_id_dict[ak.akslot.id]]["public_id"] = ak.public_id
+        except:
+            pass
+
         # data[rooms_id_dict[ak.room.id]][akslots_id_dict[ak.akslot.id]] = {
         #     "room": ak.room.name,
         #     "akslot": ak.akslot.name,
@@ -121,8 +176,9 @@ def ak_table(request):
         #     "name": ak.name,
         #     "short": ak.short,
         # }
-    x = {"data": data, "rooms": rooms_result, "akslots": akslots}
-    print(x)
+    form = ChangeForm()
+    x = {"data": data, "rooms": rooms_result, "akslots": akslots, 'form': form}
 
     template = loader.get_template('ak_table.html')
     return HttpResponse(template.render(x, request))
+
