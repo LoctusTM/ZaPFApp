@@ -13,7 +13,8 @@ class Command(BaseCommand):
     def _publish_all(self):
         aks = AK.objects.all()
         for ak in aks:
-            ak.published = True
+            if not (ak.name == "-" and ak.short == "-"):
+                ak.published = True
             ak.save()
 
     def handle(self, *args, **options):
