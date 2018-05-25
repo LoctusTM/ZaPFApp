@@ -97,7 +97,7 @@ class Command(BaseCommand):
 
         results = []
 
-        for k in range(100):
+        for k in range(config.cycles):
             random.shuffle(aks2)
             
             for i, ak in enumerate(aks2):
