@@ -21,18 +21,18 @@
 <input id="room_2" type="number" name="room_2" maxlength="100" required />
 -->
 
-<table style="font-size: 10px;" class="table table-sm table-condensed" border="1px">
+<table style="font-size: 10px;" class="table table-sm table-condensed" border="">
 		<tr style="font-size: 130%; font-weight: bold;">
 			<td></td>
 			{% for akslot in akslots %}
-				<td>{{ akslot }} ({{ forloop.counter0 }})</td>
+				<td>{{ akslot }}</td>
 			{% endfor %}
 		</tr>
 
 {% for room in data %}
 	<tr>
 	<td style="font-size: 130%" class="col-md-1">
-		<b>{{room.0.room}} ({{ forloop.counter0 }})</b>
+		<b>{{room.0.room}}</b>
 	</td>
 	{% for akslot in room %}
 		<td style="{% if akslot.kleine_fachschaften < 10%} background-color: rgba(255,0,0,0.{{akslot.kleine_fachschaften}}); {% else %}rgba(255,0,0,1){% endif %}" class="col-md-1">
@@ -52,6 +52,8 @@
 
 <form action="/aktable/" method="post">
     {% csrf_token %}
-    {{ form }}
-    <input type="submit" value="Submit" />
+    <label for="id_slot_1">Slot 1:</label><input type="number" name="slot_1" required="" id="id_slot_1">
+	<label for="id_slot_2">Slot 2:</label><input type="number" name="slot_2" required="" id="id_slot_2">
+    <input type="submit" value="Submit">
 </form>
+

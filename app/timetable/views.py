@@ -97,8 +97,8 @@ def ak_table(request):
                 b[0].save()
                 print("a")
 
+            
             """
-
             if len(a) == 1 and len(b) == 0:
                 a[0].public_id = slot_2
                 a[0].akslot = akslots[slot_2//Räume]
@@ -112,8 +112,8 @@ def ak_table(request):
                 b[0].raum = rooms[slot_1%Slots]
                 b[0].save()
                 print("c")
-
             """
+            
 
             return HttpResponseRedirect('/aktable/')
 

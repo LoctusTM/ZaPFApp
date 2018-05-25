@@ -16,6 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import include, path
 
+admin.site.site_header = 'ZaPFmaster3000'
+admin.site.index_title = 'ZaPFmaster3000'
+admin.site.site_title = 'ZaPFmaster3000'
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('timetable.urls'), name='timetable'),
