@@ -50,6 +50,7 @@ class AK(models.Model):
     responsible = models.CharField(max_length=200, blank=True)
     room = models.ForeignKey(Room, on_delete=models.CASCADE, blank=True, null=True)
     url = models.CharField(max_length=1000, blank=True)
+    workshop = models.BooleanField(default=False)
     backup = models.BooleanField(default=False)
     public_id = models.IntegerField(default=-1)
 
