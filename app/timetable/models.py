@@ -46,7 +46,7 @@ class AKSlot(Timeslot):
 class AK(models.Model):
     akslot = models.ForeignKey(AKSlot, on_delete=models.CASCADE, blank=True, null=True )
     name = models.CharField(max_length=200, blank=True)
-    short = models.CharField(max_length=200, default="")
+    short = models.CharField(max_length=200, blank=True)
     responsible = models.CharField(max_length=200, blank=True)
     room = models.ForeignKey(Room, on_delete=models.CASCADE, blank=True, null=True)
     url = models.CharField(max_length=1000, blank=True)
