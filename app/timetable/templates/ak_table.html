@@ -37,7 +37,7 @@
 	{% for akslot in room %}
 		<td style="{% if akslot.kleine_fachschaften < 10%} background-color: rgba(255,0,0,0.{{akslot.kleine_fachschaften}}); {% else %}rgba(255,0,0,1){% endif %}" class="col-md-1">
 				{% if akslot.ak == True %}
-				<b>({{ akslot.public_id }}) {{ akslot.short }}</b><br>
+				<b style="font-size: 130%">({{ akslot.public_id }}) {{ akslot.short }}</b><br>
 				{% if akslot.short != "-" %}
 				{{ akslot.room }}<br>
 				{{ akslot.responsible }}<br>
