@@ -5,6 +5,9 @@ import arrow
 from django.http import JsonResponse
 from .models import Timeslot, Room, AKSlot, AK, RoomAssignment, News
 from .forms import ChangeForm
+from django.contrib.admin.views.decorators import staff_member_required
+
+
 
 def n_t(n, k):
     return (n%k, n//k)
@@ -51,7 +54,8 @@ def timetable(request):
                     "room": ak.room.name,
                     "url": ak.url,
                 }
-                slot["aks"].append(ak_set)
+                if ak.published == True:
+                    slot["aks"].append(ak_set)
         data["slots"].append(slot)
         #"aks" : [x for x in t.akslot.ak_set.all() if t]
     data['slots'].sort(key=lambda x: x['timestamp'])
@@ -65,6 +69,7 @@ def try_else(_input, _else):
     except:
         return _else
 
+@staff_member_required
 def ak_table(request):
     aks = AK.objects.all()
     rooms = Room.objects.all()
