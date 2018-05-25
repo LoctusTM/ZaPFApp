@@ -14,6 +14,7 @@ class Command(BaseCommand):
         aks = AK.objects.all()
         for ak in aks:
             ak.published = False
+            ak.save()
 
     def handle(self, *args, **options):
         self._unpublish_all()
