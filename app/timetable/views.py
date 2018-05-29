@@ -53,6 +53,7 @@ def timetable(request):
                     "responsible": ak.responsible,
                     "room": ak.room.name,
                     "url": ak.url,
+                    "short": ak.short,
                 }
                 if ak.published == True:
                     slot["aks"].append(ak_set)
