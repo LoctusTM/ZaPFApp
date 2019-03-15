@@ -1,0 +1,22 @@
+version: '2'
+
+services:
+   zapfapp:
+     build:
+        context: .
+        dockerfile: Dockerfile
+     volumes:
+       - ./app:/app/app
+       - ./3dpartystatic:/static
+     restart: always
+     ports:
+       - "10000:80"
+     environment:
+       MYSQL_ROOT_PASSWORD: somewordpress
+       MYSQL_DATABASE: wordpress
+       MYSQL_USER: wordpress
+       MYSQL_PASSWORD: wordpress
+       PYTHONUNBUFFERED: "0"
+volumes:
+    db_data:
+    
