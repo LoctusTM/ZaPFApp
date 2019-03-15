@@ -46,7 +46,7 @@ System.register(['angular2/core', 'angular2/http', 'rxjs/Rx', './slots.component
                     else
                         this.prefs = {
                             slots: {
-                                showFinished: true,
+                                showFinished: false,
                                 showNotAk: true,
                                 highlight: true
                             }

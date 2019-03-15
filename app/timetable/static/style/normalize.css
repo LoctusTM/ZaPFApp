@@ -106,7 +106,7 @@ a:hover {
 */
 
 ul {
-    list-style-image: url('https://zapf.uni-konstanz.de/app/img/list_element.png');
+    list-style-image: url('../../../../app/img/list_element.png');
 }
 
 /* Text-level semantics

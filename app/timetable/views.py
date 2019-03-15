@@ -6,7 +6,9 @@ from django.http import JsonResponse
 from .models import Timeslot, Room, AKSlot, AK, RoomAssignment, News
 from .forms import ChangeForm
 from django.contrib.admin.views.decorators import staff_member_required
+import logging
 
+logger = logging.getLogger(__name__)
 
 
 def n_t(n, k):
@@ -33,10 +35,11 @@ def timetable(request):
 
     for t in timeslots:
         slot = {
-            "begin": arrow.get(t.start).format('ddd HH:mm', locale='de_de'), 
-            "end": arrow.get(t.end).format('HH:mm'),
+            "test": arrow.get(t.start).to('Europe/Berlin').format(),
+            "begin": arrow.get(t.start).to('Europe/Berlin').format('ddd HH:mm', locale='de_de'), 
+            "end": arrow.get(t.end).to('Europe/Berlin').format('HH:mm'),
             "timestamp": int(arrow.get(t.start).timestamp),
-            "finish": str(t.end)[0:10] + "T" + str(t.end)[11:19] + "+0200",  
+            "finish": str(t.end)[0:10] + "T" + str(t.end)[11:19] + "+0000",  
             "name": t.name,
             "type": t.event_type
         }
@@ -48,6 +51,8 @@ def timetable(request):
         if hasattr(t, 'akslot'):
             slot["aks"] = []
             for ak in t.akslot.ak_set.all():
+                if ak.published == False:
+                    continue;
                 ak_set = {
                     "name": ak.name,
                     "responsible": ak.responsible,

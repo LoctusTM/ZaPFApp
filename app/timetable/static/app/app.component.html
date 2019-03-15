@@ -44,7 +44,7 @@
         <li><a (click)="chView('slots');">Zeitplan</a></li>
         <li><a (click)="chView('news');">Newsticker</a></li>
         <li><a (click)="chView('contacts');">Infos & Kontakte</a></li>
-        <!--<li><a (click)="chView('maps');">Karten</a></li>-->
+        <li><a (click)="chView('maps');">Karten</a></li>
         <li><a (click)="chView('prefs');">Einstellungen</a></li>
     </ul>
 </nav>
@@ -104,28 +104,78 @@
     <section style="padding-top: 5px;">
         <h3 style="margin: 0 5px;">Tagungsbüro</h3>
         <p style="margin: 0 10px 10px 10px;">
-            (+49 1577) 10 71 821 <br>
-            Öffnungszeiten: 06:00-02:00 Uhr <br>
-            Ort: INF 227 (Kirchhoff-Institut für Physik), Raum 1.403
+            +49 (0)931 31 85150 <br>
+	    Mobil: +49 (0)152 25953668
+            Öffnungszeiten: 00:00-24:00 Uhr <br>
+            Ort: Physikalisches Institut, Raum B016
         </p>
-        <h3 style="margin: 0 5px;">Orga-Büro</h3>
+<!--        <h3 style="margin: 0 5px;">Orga-Büro</h3>
         <p style="margin: 0 10px 10px 10px;">
             (+49 6221) 54 19555 <br>
             Öffnungszeiten: 00:00-24:00 Uhr <br>
             Ort: INF 226 (Physikalisches Institut), Raum 00.210
-        </p>
+	</p> -->
         <h3 style="margin: 0 5px;">Kontakt</h3>
         <p style="margin: 0 10px 10px 10px;">
-            <a href="mailto:zapfinhd@mathphys.stura.uni-heidelberg.de">
-                zapfinhd@mathphys.stura.uni-heidelberg.de
+            Allgemein: <a href="mailto:tagungsbuero@wuerzburg18.de">
+                tagungsbuero@wuerzburg18.de
+            </a> <br>
+            Anträge: <a href="mailto:resos@wuerzburg18.de">
+                resos@wuerzburg18.de
+            </a> <br> 
+            Arbeitskreise: <a href="mailto:arbeitskreise@wuerzburg18.de">
+                arbeitskreise@wuerzburg18.de
+            </a> <br>
+            Telegram: <a href="https://t.me/wuerzburg18">
+                @wuerzburg18
+            </a> <br>
+	    Telegram-Channel: <a href="https://t.me/joinchat/AAAAAEgM4XybEyd9DpiDnQ">
+                ZaPF in Würzburg News
             </a> <br>
         </p>
-        <h3 style="margin: 0 5px;">Anlaufstelle Gemeinschaftsunterkünfte</h3>
+    </section>
+    <section style="padding-top: 5px;">
+        <h3 style="margin: 0 5px;">Vertrauenspersonen</h3>
         <p style="margin: 0 10px 10px 10px;">
-            
-            Öffnungszeiten: 21:00-09:00<br>
-            Ort: Zwischen den Wohnheimen INF 693-696
+            <a href="mailto:lennart.ahrens@wuerzburg18.de">
+                Lennart Ahrens
+            </a> <br>
+            <a href="mailto:chantal.beck@wuerzburg18.de">
+                Chantal Beck
+            </a> <br>
+            <a href="mailto:christian.birk@wuerzburg18.de">
+                Christian Birk
+            </a> <br>
+            <a href="mailto:andreas.christ@wuerzburg18.de">
+                Andreas Christ
+            </a> <br>
+            <a href="mailto:lisa.dietrich@wuerzburg18.de">
+                Lisa Dietrich
+            </a> <br>
+            <a href="mailto:oliver.irtenkauf@wuerzburg18.de">
+                Oliver Irtenkauf
+            </a> <br>
+            <a href="mailto:elena.offenberg@wuerzburg18.de">
+                Elena Offenberg
+	    </a> <br>
+            <a href="mailto:karola.schulz@wuerzburg18.de">
+                Karola Schulz
+	    </a> <br>
         </p>
+    </section>
+    <section style="padding-top: 5px;">
+        <h3 style="margin: 0 5px;">Öffnungszeiten Unterkünfte</h3>
+        <p style="margin: 0 10px 10px 10px;">
+            22:00 - 09:00
+        </p>
+        <h3 style="margin: 0 5px;">Duschzeiten</h3>
+	<ul>
+		<li>Fr 06:00-Sa 01:00</li>
+		<li>Sa 06:00-Sa 09:00</li> 
+		<li>Sa 10:15-Sa 17:30</li>
+		<li>Sa 22:00-So 01:00</li>
+		<li>So 06:00-So 09:00</li>
+	</ul>
     </section>
     <!--
     <section>
@@ -141,34 +191,46 @@
     </section>
     -->
 </div>
-<!--
+
 <div id="content" class="maps" *ngIf="view == 'maps'">
     <section>
-        <h3>Uni - gesamt</h3>
-        <a href="maps/uni.png">
-            <img alt="Uniplan" src="maps/uni.png" />
+        <h3>Überischtskarte</h3>
+        <a href="https://goo.gl/xADsF4">
+            Link zur Google Maps Karte
         </a>
     </section>
     <section>
-        <h3>Sportgelände</h3>
-        <a href="maps/sport.png">
-            <img alt="Sportgelände" src="maps/sport.png" />
+        <h3>Kneipentourkartekarte</h3>
+        <a href="https://goo.gl/22ESpV">
+            Link zur Google Maps Karte
+        </a>
+        <a href="maps/kneipenkarte_komplett.png">
+            <img alt="Kneipentour" src="maps/kneipenkarte_komplett.png" />
         </a>
     </section>
     <section>
-        <h3>P6 - Napf,Aufenthalt</h3>
-        <a href="maps/p6.png">
-            <img alt="P6" src="maps/p6.png" />
+        <h3>Physikalisches Institut</h3>
+        <a href="maps/gebaeudeplan_ergaenzt_2.PNG">
+            <img alt="Physikalisches Institut" src="maps/gebaeudeplan_ergaenzt_2.PNG" />
         </a>
     </section>
     <section>
-        <h3>R5 - Tagungsbüro, Höhrsäle</h3>
-        <a href="maps/r5.png">
-            <img alt="R5" src="maps/r5.png" />
+        <h3>Mehrzweckhalle</h3>
+        <a href="maps/mzhB.png">
+            <img alt= "Unterkünfte" src="maps/mzhB.png" />
+        </a>
+        <a href="maps/mzhA.png">
+            <img alt= "Unterkünfte" src="maps/mzhA.png" />
+        </a>
+    </section>
+    <section>
+        <h3>Feuerwehr</h3>
+        <a href="maps/fwA.png">
+            <img alt= "Unterkünfte" src="maps/fwA.png" />
         </a>
     </section>
 </div>
--->
+
 <div id="content" class="preferences" *ngIf="view == 'prefs'">
     <form>
         <table>
