@@ -23,9 +23,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'o^2+m6xwyho)946=$*4lx4-l4s)2gj!5&d19gy9(@on=aq7l(n'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False 
+DEBUG = True 
 
-ALLOWED_HOSTS = ["zapf.ethylomat.de"]
+USE_X_FORWARDED_HOST = True
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -139,3 +140,5 @@ CONSTANCE_CONFIG = {
     'timeslots': (1, 'Anzahl der Zeitslots'),
     'cycles': (10, 'Anzahl der Durchläufe'),
 }
+
+LOGGING = { 'version': 1, 'disable_existing_loggers': False, 'handlers': { 'file': { 'level': 'DEBUG', 'class': 'logging.FileHandler', 'filename': '/app/app/debug.log', }, }, 'loggers': { 'django': { 'handlers': ['file'], 'level': 'DEBUG', 'propagate': True, }, }, } 
